@@ -21,6 +21,7 @@ Whether to baseline correct the data (Baseline is defined as the average signal 
 
 ## Example
 `python fsec.py --path path/to/csv --type 1 --bin 0.05 --base 1 --norm 1`
+
 The above command reduces the resolution of the Analog in 1 (GFP) signal to 0.05mL, baseline corrects it and normalizes it. 
 
 
